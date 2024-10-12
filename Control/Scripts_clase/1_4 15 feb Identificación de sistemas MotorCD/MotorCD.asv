@@ -1,0 +1,5 @@
+deltaT = Tiempo(2) - Tiempo(1)
+
+% Objetos de datos
+MotorCD_obj = iddata([Valocidad, Corriente], [Entrada], deltaT);
+MotorCD_obj.inputname = {'Entrada'};
